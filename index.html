@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<title>محمد مهدی نعمتی — توسعه‌دهنده فرانت‌اند</title>
+<meta name="description" content="محمد مهدی نعمتی — توسعه‌دهنده فرانت‌اند و طراح رابط‌های کاربری حرفه‌ای">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="pre-inner">
+    <div class="pre-logo">MMN</div>
+    <div class="pre-bar"><div class="pre-fill" id="preFill"></div></div>
+    <div class="pre-count" id="preCount">۰</div>
+  </div>
+</div>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursorDot"></div>
+
+<!-- Noise overlay -->
+<div class="noise"></div>
+
+<!-- Navigation -->
+<header id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo" data-cursor="pointer">
+      <span>MMN</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about" data-cursor="pointer">درباره</a>
+      <a href="#work" data-cursor="pointer">پروژه‌ها</a>
+      <a href="#contact" data-cursor="pointer">تماس</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" data-cursor="pointer" aria-label="منو">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu Overlay -->
+<div id="menuOverlay">
+  <div class="menu-links">
+    <a href="#about" data-cursor="pointer">درباره</a>
+    <a href="#work" data-cursor="pointer">پروژه‌ها</a>
+    <a href="#services" data-cursor="pointer">خدمات</a>
+    <a href="#contact" data-cursor="pointer">تماس</a>
+  </div>
+  <div class="menu-footer">
+    <a href="https://github.com/MMN-software" target="_blank" data-cursor="pointer">GitHub</a>
+    <a href="mailto:mohammadmehdi.neemati@gmail.com" data-cursor="pointer">Email</a>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg-text">DEVELOPER</div>
+  <div class="hero-content">
+    <div class="hero-badge" data-anim="hero-fade">
+      <span class="dot"></span>
+      <span>آماده‌ی همکاری</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="line"><span class="word" data-anim="hero-word">توسعه‌دهنده</span></span>
+      <span class="line"><span class="word gradient" data-anim="hero-word">فرانت‌اند</span></span>
+      <span class="line"><span class="word" data-anim="hero-word">و طراح وب</span></span>
+    </h1>
+    <p class="hero-sub" data-anim="hero-fade">
+      سایت‌هایی می‌سازم که سریع، زیبا و کاربرپسند باشن — با HTML، CSS، JavaScript و Vue 3
+    </p>
+    <div class="hero-actions" data-anim="hero-fade">
+      <a href="#work" class="btn-primary" data-cursor="pointer" data-magnetic>
+        <span>مشاهده‌ی پروژه‌ها</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M5 15L15 5M15 5H7M15 5V13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </a>
+      <a href="#contact" class="btn-ghost" data-cursor="pointer" data-magnetic>
+        <span>شروع همکاری</span>
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll" data-anim="hero-fade">
+    <span>اسکرول کن</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num" data-anim="fade-up">۰۱</div>
+      <h2 class="section-title" data-anim="fade-up">درباره‌ی من</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-image" data-anim="fade-up">
+        <div class="about-img-wrap">
+          <div class="about-img-inner">م</div>
+        </div>
+        <div class="about-tags">
+          <span>تهران</span>
+          <span>مهندسی کامپیوتر</span>
+        </div>
+      </div>
+      <div class="about-text" data-anim="fade-up">
+        <p class="about-lead">
+          سلام 👋 من <strong>محمد مهدی نعمتی</strong> هستم — توسعه‌دهنده فرانت‌اند و دانشجوی مهندسی کامپیوتر.
+        </p>
+        <p>
+          کارم ساختن رابط‌های کاربری‌ست که هم سریع باشن، هم زیبا. 
+          توی پروژه‌هام روی جزئیات، تجربه‌ی کاربری روان و کد تمیز تمرکز می‌کنم.
+        </p>
+        <p>
+          از لندینگ‌های تک‌صفحه‌ای تا اپلیکیشن‌های PWA چندمنظوره — همه چیز رو از صفر و بدون قالب آماده می‌سازم.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-num" data-count="6">۰</div>
+            <div class="stat-lbl">پروژه</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="8">۰</div>
+            <div class="stat-lbl">مهارت</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="2">۰</div>
+            <div class="stat-lbl">سال تجربه</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee Skills -->
+<section class="marquee-section">
+  <div class="marquee" data-direction="right">
+    <div class="marquee-track">
+      <span>HTML5</span><span class="dot-sep">●</span>
+      <span>CSS3</span><span class="dot-sep">●</span>
+      <span>JavaScript</span><span class="dot-sep">●</span>
+      <span>Vue 3</span><span class="dot-sep">●</span>
+      <span>PWA</span><span class="dot-sep">●</span>
+      <span>Responsive</span><span class="dot-sep">●</span>
+      <span>UI/UX</span><span class="dot-sep">●</span>
+      <span>Git</span><span class="dot-sep">●</span>
+      <span>HTML5</span><span class="dot-sep">●</span>
+      <span>CSS3</span><span class="dot-sep">●</span>
+      <span>JavaScript</span><span class="dot-sep">●</span>
+      <span>Vue 3</span><span class="dot-sep">●</span>
+      <span>PWA</span><span class="dot-sep">●</span>
+      <span>Responsive</span><span class="dot-sep">●</span>
+      <span>UI/UX</span><span class="dot-sep">●</span>
+      <span>Git</span><span class="dot-sep">●</span>
+    </div>
+  </div>
+</section>
+
+<!-- Work -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num" data-anim="fade-up">۰۲</div>
+      <h2 class="section-title" data-anim="fade-up">پروژه‌های منتخب</h2>
+      <p class="section-sub" data-anim="fade-up">همه‌ی پروژه‌ها لینک زنده و سورس دارن</p>
+    </div>
+
+    <div class="work-list">
+      <article class="work-item" data-anim="fade-up">
+        <a href="https://MMN-software.github.io/invoice-app/" target="_blank" data-cursor="view" data-cursor-text="مشاهده">
+          <div class="work-thumb" style="--c1:#8b5cf6;--c2:#06b6d4;">
+            <div class="work-thumb-inner">🧾</div>
+            <div class="work-meta-num">01</div>
+          </div>
+          <div class="work-info">
+            <h3>فاکتورساز حرفه‌ای</h3>
+            <p>اپلیکیشن PWA صدور فاکتور با پرداخت جزئی، گزارش مالیاتی و کد تخفیف</p>
+            <div class="work-tags">
+              <span>Vue 3</span><span>PWA</span><span>Service Worker</span>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-item" data-anim="fade-up">
+        <a href="https://MMN-software.github.io/second-brain-vue/" target="_blank" data-cursor="view" data-cursor-text="مشاهده">
+          <div class="work-thumb" style="--c1:#ec4899;--c2:#f43f5e;">
+            <div class="work-thumb-inner">🧠</div>
+            <div class="work-meta-num">02</div>
+          </div>
+          <div class="work-info">
+            <h3>مغز من</h3>
+            <p>دستیار شخصی مدیریت کارها، عادت‌ها، یادداشت‌ها و تقویم شمسی</p>
+            <div class="work-tags">
+              <span>Vue 3</span><span>jalaali-js</span><span>PWA</span>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-item" data-anim="fade-up">
+        <a href="https://MMN-software.github.io/gadgetland/" target="_blank" data-cursor="view" data-cursor-text="مشاهده">
+          <div class="work-thumb" style="--c1:#10b981;--c2:#84cc16;">
+            <div class="work-thumb-inner">🛒</div>
+            <div class="work-meta-num">03</div>
+          </div>
+          <div class="work-info">
+            <h3>فروشگاه گجت‌لند</h3>
+            <p>فروشگاه اینترنتی با سبد خرید، فیلتر و صفحه‌ی محصول</p>
+            <div class="work-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-item" data-anim="fade-up">
+        <a href="https://MMN-software.github.io/portfolio/" target="_blank" data-cursor="view" data-cursor-text="مشاهده">
+          <div class="work-thumb" style="--c1:#f97316;--c2:#eab308;">
+            <div class="work-thumb-inner">🏠</div>
+            <div class="work-meta-num">04</div>
+          </div>
+          <div class="work-info">
+            <h3>آژانس املاک خانه مدرن</h3>
+            <p>سایت آژانس املاک با لیست املاک، جستجو و صفحه‌ی جزئیات</p>
+            <div class="work-tags">
+              <span>HTML</span><span>CSS</span><span>Responsive</span>
+            </div>
+          </div>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num" data-anim="fade-up">۰۳</div>
+      <h2 class="section-title" data-anim="fade-up">خدمات</h2>
+      <p class="section-sub" data-anim="fade-up">چی می‌تونم برات بسازم؟</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">🎨</div>
+        <h3>طراحی لندینگ</h3>
+        <p>صفحه‌ی فرود سریع و زیبا با تمرکز روی تبدیل</p>
+      </div>
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">💼</div>
+        <h3>سایت شرکتی</h3>
+        <p>معرفی خدمات و نمونه‌کار برای کسب‌وکارها</p>
+      </div>
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">🛒</div>
+        <h3>فروشگاه اینترنتی</h3>
+        <p>فروشگاه ساده و حرفه‌ای با سبد خرید</p>
+      </div>
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">📱</div>
+        <h3>اپلیکیشن PWA</h3>
+        <p>وب‌اپ نصب‌شدنی روی گوشی، آفلاین و سریع</p>
+      </div>
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">⚙️</div>
+        <h3>پنل مدیریت</h3>
+        <p>داشبورد و پنل مدیریت با طراحی مدرن</p>
+      </div>
+      <div class="service-card" data-anim="fade-up">
+        <div class="service-icon">⚡</div>
+        <h3>بهینه‌سازی</h3>
+        <p>سرعت، SEO و تجربه‌ی کاربری بهتر</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="section-num" data-anim="fade-up">۰۴</div>
+      <h2 class="contact-title" data-anim="fade-up">
+        بیا با هم<br>
+        <span class="gradient">کار کنیم</span>
+      </h2>
+      <p class="contact-sub" data-anim="fade-up">
+        یه ایده داری؟ سوالی داری؟ همین حالا پیام بده — سریع جواب می‌دم
+      </p>
+      <div class="contact-actions" data-anim="fade-up">
+        <a href="https://wa.me/989177357794" target="_blank" class="btn-primary" data-cursor="pointer" data-magnetic>
+          <span>💬 واتساپ</span>
+        </a>
+        <a href="mailto:mohammadmehdi.neemati@gmail.com" class="btn-ghost" data-cursor="pointer" data-magnetic>
+          <span>✉️ ایمیل</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">MMN</div>
+        <p>© <span id="year"></span> محمد مهدی نعمتی</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/MMN-software" target="_blank" data-cursor="pointer">GitHub</a>
+        <a href="https://MMN-software.github.io/mmn-landing/" target="_blank" data-cursor="pointer">لندینگ</a>
+        <a href="mailto:mohammadmehdi.neemati@gmail.com" data-cursor="pointer">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- GSAP -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
